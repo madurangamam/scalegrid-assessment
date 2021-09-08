@@ -1,8 +1,0 @@
-# Routes
-
-GET  /:numOfHours                controllers.UserController.sendBirthdayEmail(numOfHours:Int)
-POST    /                           controllers.UserController.create(request: Request)
-GET     /                           controllers.UserController.listUsers()
-
-# Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
